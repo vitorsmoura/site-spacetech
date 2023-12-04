@@ -1,0 +1,121 @@
+body {
+  background-image: url("../img/login-Imagens/Imagem\ Fundo.png");
+}
+.container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.contactBox {
+  justify-content: start;
+  padding-left: 60px;
+  gap: 50px;
+}
+.login-box {
+  width: 450px;
+  height: auto;
+  background-color: rgba(192, 192, 192, 0.2);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #0d0d39;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signUp-link,
+.signIn-link {
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+  font-size: 15px;
+}
+.signIn-link {
+  display: none;
+}
+.signUp-link:hover,
+.signIn-link:hover {
+  color: #0d0d39;
+}
+
+.contentCheckbox {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.boxInputCheck {
+  display: flex;
+  height: auto;
+}
+.checkbox {
+  width: auto;
+}
+.checkbox-label {
+  flex-grow: 1;
+}
+form {
+  border-radius: 5px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 15px 0 0;
+}
+
+.messageAlert {
+  width: 100%;
+  height: auto;
+  color: rgb(248, 73, 73);
+  padding: 15px;
+  overflow-y: scroll;
+  max-height: 60px;
+  display: none;
+}
+.alertMessage {
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgb(0 0 0 / 80%);
+  flex-direction: column;
+}
+.confirmMessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  height: 80%;
+}
+.confirmButton {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+

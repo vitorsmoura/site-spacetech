@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/accountConfig.css" />
+    <link rel="stylesheet" href="../style/common.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/accountConfig.js"></script>
+    <title>Space Tech</title>
+  </head>
+  <body class="contentBody">
+    <header class="headerContent">
+      <div class="logoBox">
+        <img src="../img/Logo Space Tech.svg" alt="space-logo" />
+      </div>
+      <div class="contactBox">
+        <a href="./createAccount.html" class="createAcc">Cadastrar</a>
+        <div class="adminLogin">
+          <a href="./createAccount.html" class="createAcc">Gestão de Usuários</a>
+        </div>
+        <a href="./getApi.html" class="services">Serviços</a>
+        <a href="./login.html" class="services">Deslogar</a>
+
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="alertMessage">
+        <div class="confirmMessage"></div>
+        <div class="confirmButton"></div>
+      </div>
+      <div class="userLogin">
+        <div class="userBox">
+          <h1 id="userName" style="color: white;">BEM VINDO, !</h1>
+        <div id="userMail" style="color: white;"></div>
+        </div>
+      </div>
+      <div class="adminLogin">
+        <div class="adminBox">
+          <h1 style="color: white;">LISTAGEM DE USUÁRIOS</h1>
+          <div class="totalUsers"></div>
+
+          <div class="searchBox">
+            <input type="text" class="searchName" />
+            <button class="searchItem button">Buscar</button>
+          </div>
+          <div class="boxInputsContent boxList">
+            <div class="listItems boxInput"></div>
+          </div>
+        </div>
+      </div>
+      <div class="configAccount boxContentName">
+        <div class="configBox">
+          <h1 style="color: white;">GESTÃO DE USUÁRIOS</h1>
+          <div class="boxInputsContent">
+            <div class="boxInput" >
+              <label for="id">ID</label> 
+              <input type="text" id="id" />
+            </div>
+            <div class="boxInput">
+              <label for="name">Nome</label> 
+              <input type="text" id="name" />
+            </div>
+            <div class="boxInput">
+              <label for="lastName">Sobrenome</label>
+              <input type="text" id="lastName" />
+            </div>
+            <div class="boxInput">
+              <label for="email">E-mail</label>
+              <input type="text" id="email" readonly />
+            </div>
+          </div>
+          <div class="messageAlert"></div>
+          <div class="boxButton" style="background-color:gray">
+            <button class="buttonAcc edit">SALVAR</button>
+            <button class="buttonDelete edit" style="color:darkred;"><b>DELETAR</b></button>
+          </div>
+
+        </div>
+      </div>
+      <div class="invisibleContent">
+        <input type="text" class="arrayReceive" />
+      </div>
+    </div>
+  </body>
+</html>

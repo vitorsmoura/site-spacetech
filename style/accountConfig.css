@@ -1,0 +1,154 @@
+body {
+  background-image: url("../img/accountConfig/Imagem-fundo.png");
+}
+.contactBox {
+  gap: 15px;
+}
+.container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.adminLogin {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userLogin {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.configAccount {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.configBox,
+.adminBox {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(192, 192, 192, 0.2);
+  flex-direction: column;
+  gap: 10%;
+  padding: 10px;
+}
+
+.configBox,
+.userBox {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(192, 192, 192, 0.2);
+  flex-direction: column;
+  gap: 10%;
+  padding: 10px;
+}
+
+
+.boxInput {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  height: 25px;
+}
+.boxInput input {
+  width: 80%;
+  border-radius: 5px;
+}
+input,
+button {
+  outline: none;
+  cursor: pointer;
+}
+.boxInput label {
+  color: white;
+}
+.buttonAcc {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.boxInputsContent {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+.boxButton {
+  height: 30%;
+  width: 100%;
+  justify-content: end;
+  display: flex;
+  padding-right: 10%;
+  align-items: center;
+}
+.messageAlert {
+  width: 100%;
+  height: auto;
+  color: rgb(248, 73, 73);
+  padding: 15px;
+  overflow-y: scroll;
+  max-height: 60px;
+}
+.invisibleContent{
+  display: none;
+}
+.listItems {
+  height: 100%;
+  gap: 5px;
+  overflow-y: scroll;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.boxContentUser {
+  width: 90%;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 20px;
+  color: rgb(61, 61, 61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchName {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 74%;
+  cursor: pointer;
+  text-align: center;
+}
+.searchBox {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+}
+.boxContentName{
+  display: none;
+}

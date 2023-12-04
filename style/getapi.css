@@ -1,0 +1,102 @@
+body {
+  background-image: url("../img/accountConfig/Imagem-fundo.png");
+}
+input {
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.contentAll{
+  display: flex;
+  width: 100%;
+  height: 95%;
+  gap: 10px;
+  align-items: center;
+}
+.searchEvent,
+.resultValue {
+  background-color: rgba(192, 192, 192, 0.2);
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 200px;
+}
+
+.boxSearchDate {
+  height: 70%;
+  display: flex;
+  align-items: start;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+}
+.inputDate {
+  width: 80%;
+}
+.inputDate input {
+  width: 100%;
+  text-align: center;
+}
+.boxButton {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(192, 192, 192, 0.2);
+  border-radius: 5px;
+}
+.boxButton .search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resultText{
+    height: 80%;
+    overflow-y: scroll;
+    max-height: 500px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.asteroidResult{
+    width: 80%;
+    height: 150px;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+.contentValue{
+  width:80px ;
+  height: 40px;
+  background-color: grey;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.contentresult {
+  width: 80%;
+  height: 60%;
+  border-radius: 5px;
+  z-index: 2;
+  position: fixed;
+  color: white;
+  background-color: #808080d9;
+  display: none;
+}

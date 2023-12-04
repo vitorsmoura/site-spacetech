@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/login.css" />
+    <link rel="stylesheet" href="../style/common.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+
+    <title>Space Tech</title>
+  </head>
+  <body class="contentBody">
+    <header class="headerContent">
+      <div class="logoBox">
+        <img src="../img/Logo Space Tech.svg" alt="space-logo" />
+      </div>
+      <div class="contactBox">
+        <a href="./index.html" class="services">Home</a>
+        <a href="./index.html" class="contact">Contato</a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="alertMessage">
+        <div class="confirmMessage"></div>
+        <div class="confirmButton">
+          <button class="closeCreate button">Close</button>
+        </div>
+      </div>
+      <div class="login-box">
+        <h2 class="titlleLogin">Entrar</h2>
+        <form>
+          <input
+            class="input-field username login createInput"
+            type="text"
+            placeholder="Nome"
+          />
+          <input
+            class="input-field lastname createInput"
+            type="text"
+            placeholder="Sobrenome"
+          />
+          <input
+            class="input-field email createInput"
+            type="email"
+            placeholder="spacetech@spacetech.com.br"
+          />
+          <input
+            class="input-field password"
+            type="password"
+            placeholder="Senha"
+          />
+          <input
+            class="input-field confirmPassword createInput"
+            type="password"
+            placeholder="Confirmar Senha"
+          />
+          <input
+            class="input-field userphone createInput"
+            type="phone"
+            placeholder="Telefone"
+          />
+        </form>
+        <button class="submit-btn createBtn" type="button">Criar conta</button>
+        <div class="boxInputCheck">
+          <div class="contentCheckbox">
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="remember"
+              name="remember"
+            />
+            <label class="checkbox-label" for="remember">Lembre de mim</label>
+            <br />
+          </div>
+          <div class="contentCheckbox">
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="forgot-password"
+              name="forgot-password"
+            />
+            <label class="checkbox-label" for="forgot-password"
+              >Esqueci minha senha</label
+            >
+          </div>
+        </div>
+        <div class="messageAlert"></div>
+        <br />
+        <div class="signUp-link">Não tem conta? Cadastre-se</div>
+        <div class="signIn-link">Já tem conta? Faça login</div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/login.js"></script>
+  </body>
+</html>
